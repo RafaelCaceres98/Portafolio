@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>💼Portafolio</title>
+    <link rel="stylesheet" href="CSS/Portafol.css">
+</head>
+<body>
+    <!------MENU ENCABEZADO---->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Rafael</a>
+            </div>
+             
+           <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBREMI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+            </ul>
+           </nav>
+
+           <div class="nav-responsive" onclick="mostarOcultarMenu()">
+                 <i class="fa-solid fa-bars"></i>
+           </div>
+
+
+
+
+        </header>
+    </div>
+
+    <!------SECCION INICIO---->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="ing.jpg" alt="">
+            </div>
+
+            <h1>Rafael Caceres</h1>
+            <h2>Ingeniero de Sofware -Experto UI-UX</h2>
+            
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+
+        <div class="contenido-seccion">
+            <h2>Conoceme</h2>
+            <p><span>Hola, Soy Rafael Caceres.</span>Programador altamente motivado y con experiencia en el desarrollo de aplicaciones web y
+                móviles. Experto en varios lenguajes de programación y tecnologías, con un historial probado de entregar proyectos de alta calidad a tiempo.
+                 Apasionado por la resolución de problemas y la mejora continua. Busco oportunidades desafiantes para seguir creciendo como profesional en el campo del desarrollo de software
+               </p>
+
+               <div class="fila">
+                   <!-- Datos personales -->
+                   <div class="col">
+                        <h3>Datos personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                09-07-1998
+                            </li>
+                            <li>
+                                <strong>Celular</strong>
+                                3245493211
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                rricardocaceres@unicesar.edu.co
+                            </li>
+                            <li>
+                                <strong>Direccion</strong>
+                                calle 26 # 18e-64 1 de mayo Valledupar-Cesar
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>ESTUDIANTE</span>
+                            </li>
+                        </ul>
+                   </div>
+
+                   <!-- Intereses -->
+                   <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad fa-beat"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-music fa-beat-fade"></i>
+                                <span>MUSICA</span>
+                            </div>
+                             <div class="interes">
+                                <i class="fa-solid fa-plane fa-beat"></i>
+                                <span>VIAJAR</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-brands fa-apple fa-bounce"></i>
+                                <span>MAC OS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                <span>DEPORTE</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LIBROS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-car"></i>
+                                <span>AUTOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-camera"></i>
+                                <span>FOTOS</span>
+                            </div>
+                   </div>
+                 </div>
+               </div>
+               <button>
+                    Descargar Cv <i class="fa-solid fa-download fa-beat"></i>
+                    <span class="overlay"></span>
+               </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>skills</h2>
+            <div class="fila">
+                <!-- Technical Skills -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skills">
+                        <span>Javascript</span>
+                        <div class="barra-skills">
+                            <div class="progreso Javascript">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skills">
+                            <div class="progreso htmlcss">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Photoshop</span>
+                        <div class="barra-skills">
+                            <div class="progreso photoshop">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Wordpress</span>
+                        <div class="barra-skills">
+                            <div class="progreso wordpress">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <spa>Angular</span>
+                        <div class="barra-skills">
+                            <div class="progreso drupa">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skills">
+                        <span>Comunicacion</span>
+                        <div class="barra-skills">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skills">
+                            <div class="progreso trabajoequipo">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Creatividad</span>
+                        <div class="barra-skills">
+                            <div class="progreso creatividad">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Dedicacion</span>
+                        <div class="barra-skills">
+                            <div class="progreso dedicacion">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Proyect Management</span>
+                        <div class="barra-skills">
+                            <div class="progreso projec">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Manejo el framework Angular</h4>
+                        <p>Angular es un framework de aplicación web de código abierto basado en TypeScript, 
+                            diseñado para simplificar la creación de aplicaciones web de una sola página (SPA) 
+                            mediante una arquitectura modular y componentes reutilizables. 
+                            Angular facilita el desarrollo de aplicaciones web interactivas y de alto rendimiento
+                             al ofrecer un conjunto robusto de herramientas y características integradas.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>SQL SERVER</h4>
+                       
+                        <p>SQL Server es un sistema de gestión de bases de datos relacional que permite almacenar, gestionar y recuperar datos de manera eficiente.
+                             Está diseñado para ofrecer una plataforma robusta, segura y escalable para el manejo de bases de datos, tanto en entornos pequeños como en grandes organizaciones.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Asp.net core  C#</h4>
+                  
+                        <p>ASP.NET es un framework para el desarrollo de aplicaciones web y servicios en el lado del servidor.
+                             Permite a los desarrolladores crear aplicaciones web interactivas y dinámicas mediante el uso de
+                              tecnologías modernas y herramientas avanzadas proporcionadas por Microsoft.</p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Manejo de Apis </h3>
+                    <div class="item der">
+                        <h4>Backend</h4>
+                        <p>Swagger es una herramienta ampliamente utilizada para documentar, diseñar y probar APIs RESTful. Con Swagger, puedes definir las especificaciones de tu API en un formato estándar llamado OpenAPI Specification (OAS). 
+                            Swagger proporciona una interfaz de usuario interactiva que facilita la visualización y el consumo de las APIs.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                    </div>
+                    <div class="item der">
+                        <h4>MYSQL</h4>
+                        <p>MySQL es un sistema de gestión de bases de datos relacional que utiliza el lenguaje de consulta estructurado (SQL)
+                             para gestionar y manipular datos almacenados en bases de datos. Es uno de los sistemas de bases de datos más populares del mundo debido a su rendimiento, fiabilidad y facilidad de uso.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                    </div>
+                    <div class="item der">
+                        <h4>REACT</h4>
+                        <p>React es una biblioteca de JavaScript para construir interfaces de usuario, 
+                            especialmente en aplicaciones web de una sola página (SPA). Fue desarrollada y es mantenida por Facebook, junto con una comunidad de desarrolladores. Su objetivo principal es simplificar el desarrollo de interfaces interactivas y reutilizables al dividir la UI en componentes independientes.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                    </div>
+                  
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Cruzroja.png" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto Cruz roja</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portafolio.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portafolio.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/siste.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/sistema.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/paula.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+             <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                     <input type="text" placeholder="Numero Telefonico">
+                      <input type="text" placeholder="Direccion de correo">
+                       <input type="text" placeholder="Tema">
+                       <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                       <button>
+                        Enviar mensaje<i class="fa-sharp fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                       </button>
+                </div>
+
+                <!-- Mapa -->
+
+                <div class="col">
+                    <img src="img/mayo.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Valledupar-Cesar 1 de mayo Calle 26# 18E-64
+                            </li>
+                            <li>
+                               <i class="fa-solid fa-mobile"></i>
+                                Llamanos: 3245493211 - 5710895
+                            </li>
+                             <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: rricardocaceres@unicesar.edu.co
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+          </div>
+    </footer>
+
+    <script src="JS/portafolio.js"> </script>
+
+
+
+</body>
+</html>
